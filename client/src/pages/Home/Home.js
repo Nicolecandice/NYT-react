@@ -39,13 +39,13 @@ class Home extends Component {
             : ""
         })
       )
-      .catch(err => console.log(err));
-  };
+      .catch(err => console.log(err)
+    )};
 
   handleFormSubmit = event => {
     event.preventDefault();
     this.getArticle();
-  };
+  }
 
   handleArticleSave = id => {
     const article = this.state.articles.find(article => article._id === id);
@@ -128,7 +128,9 @@ class Home extends Component {
     }
   
   }
-export default Home;
+
+ export default Home;
+
 
                   
          

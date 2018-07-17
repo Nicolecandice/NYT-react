@@ -5,7 +5,7 @@ const db = require("../models");
 module.exports = {
     findAll: function(req, res) {
         const params = object.assign(
-            { api_key: "407a1039c67043688b2f81c179d28784" },
+            { api_key: "4407a1039c67043688b2f81c179d28784"},
                req.query );
      axios
      .get("https://www.nytimes.com", {
