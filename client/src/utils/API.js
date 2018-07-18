@@ -4,7 +4,7 @@ import filterParams from "./filterParams";
 export default {
   // Gets all books
   getArticle: function (params) {
-    return axios.get("/nyt", { params: filterParams(params) });
+    return axios.get("/api/nyt", { params: filterParams(params) });
   },
   // Gets the book with the given id
   getSavedArticle: function () {

@@ -23,6 +23,8 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-node": "^6.5.3",
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "mongoose": "^4.11.7"
